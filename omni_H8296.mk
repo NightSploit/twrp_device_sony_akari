@@ -22,16 +22,16 @@ $(call inherit-product-if-exists, $(SRC_TARGET_DIR)/product/embedded.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
-# Inherit from H8296 device
-$(call inherit-product, device/sony/H8296/device.mk)
+# Inherit from akari device
+$(call inherit-product, device/sony/akari/device.mk)
 
 # Inherit some common Omni stuff.
 $(call inherit-product, vendor/omni/config/common.mk)
 #$(call inherit-product, vendor/omni/config/gsm.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := H8296
-PRODUCT_NAME := omni_H8296
+PRODUCT_DEVICE := akari
+PRODUCT_NAME := omni_akari
 PRODUCT_BRAND := Sony
 PRODUCT_MODEL := Sony
 PRODUCT_MANUFACTURER := sony
