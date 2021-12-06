@@ -18,8 +18,8 @@
 
 PRODUCT_MAKEFILES := \
      $(LOCAL_DIR)/omni_H8296.mk
-     
-    COMMON_LUNCH_CHOICES := \
+
+COMMON_LUNCH_CHOICES := \
     omni_H8296-user \
     omni_H8296-userdebug \
     omni_H8296-eng
