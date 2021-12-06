@@ -16,7 +16,7 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/sony/H8296
+LOCAL_PATH := device/sony/akari
 
 # A/B
 AB_OTA_PARTITIONS += \
