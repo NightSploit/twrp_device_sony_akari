@@ -16,7 +16,7 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/sony/H8296
+DEVICE_PATH := device/sony/akari
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
@@ -37,7 +37,7 @@ TARGET_BOARD_SUFFIX := _64
 TARGET_USES_64_BIT_BINDER := true
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := H8296
+TARGET_OTA_ASSERT_DEVICE := akari
 
 # File systems
 BOARD_HAS_LARGE_FILESYSTEM := true
@@ -68,8 +68,8 @@ BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOTIMG_HEADER_VERSION)
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_HEADER_ARCH := arm64
-TARGET_KERNEL_SOURCE := kernel/sony/H8296
-TARGET_KERNEL_CONFIG := H8296_defconfig
+TARGET_KERNEL_SOURCE := kernel/sony/akari
+TARGET_KERNEL_CONFIG := akari_defconfig
 
 # Platform
 TARGET_BOARD_PLATFORM := sdm845
