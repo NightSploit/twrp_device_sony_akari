@@ -16,5 +16,5 @@
 # limitations under the License.
 #
 
-add_lunch_combo omni_H8296-userdebug
-add_lunch_combo omni_H8296-eng
+#add_lunch_combo omni_H8296-userdebug
+#add_lunch_combo omni_H8296-eng
