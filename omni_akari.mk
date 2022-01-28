@@ -26,13 +26,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 $(call inherit-product, device/sony/akari/device.mk)
 
 # Inherit some common Omni stuff.
-$(call inherit-product, vendor/shrp/config/common.mk)
+$(call inherit-product, vendor/omni/config/common.mk)
 #$(call inherit-product, vendor/omni/config/gsm.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := akari
 PRODUCT_NAME := omni_akari
 PRODUCT_BRAND := Sony
-PRODUCT_MODEL := Sony
+PRODUCT_MODEL := XZ2
 PRODUCT_MANUFACTURER := sony
 PRODUCT_RELEASE_NAME := Sony Sony
